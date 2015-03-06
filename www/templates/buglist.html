@@ -1,0 +1,22 @@
+<ion-view view-title="bug列表">
+  <ion-content>
+    <ul class="list">
+      <li class="item item-checkbox" ng-repeat="bugitem in buglists" href="#/app/playlists/{{playlist.id}}">
+        <label class="checkbox">
+          <input type="checkbox">
+        </label>
+        {{bugitem.title}}
+      </li>
+    </ul>
+  </ion-content>
+
+  <ion-footer-bar align-title="left" class="bar-assertive">
+    <div class="buttons">
+      <button class="button">Delete</button>
+    </div>
+    <h1 class="title">云bug</h1>
+    <div class="buttons" ng-click="doSomething()">
+      <button class="button">Edit</button>
+    </div>
+  </ion-footer-bar>
+</ion-view>

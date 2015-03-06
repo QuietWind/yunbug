@@ -1,0 +1,9 @@
+<ion-view view-title="待解决bug">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="bug in bugs" href="#/app/bugdetails/{{bug.id}}">
+        {{bug.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

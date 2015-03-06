@@ -1,0 +1,19 @@
+<ion-view view-title="首页">
+  <ion-content>
+    <div class="list">
+      <div class="item item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="text" ng-model="searchName" placeholder="Search Bug">
+        </label>
+        <button class="button button-small">
+          Search
+        </button>
+      </div>
+    </div>
+    <div class="list">
+      <div class="card" ng-repeat="bug in bugs | filter: searchName">
+        <div class="item">{{bug.title}}</div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

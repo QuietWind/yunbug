@@ -1,0 +1,32 @@
+<ion-view view-title="提交bug">
+  <ion-content>
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" placeholder="标题">
+      </label>
+      <label class="item item-input">
+        <input type="text" placeholder="标签，以逗号隔开">
+      </label>
+      <label class="item item-input">
+        <textarea cols="10" rows="4" height="100" placeholder="bug描述"></textarea>
+      </label>
+      <div class="item">
+        <div class="row">
+          <div class="col-25">
+            <button class="button button-small button-royal">
+              上传图片
+            </button>
+          </div>
+          <div class="col-75">
+            预览图片{{image.src}}
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <button class="button button-small button-royal">
+          提交
+        </button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

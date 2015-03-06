@@ -1,0 +1,20 @@
+<ion-view view-title='个人中心'>
+  <ion-content>
+    <div class="list">
+      <div class="item" ng-repeat="item in items">
+        <div ng-if="item.id==9" class="row">
+          <img src="{{item.value}}" class="circle-img" alt="">
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            {{item.title}}
+          </div>
+          <div class="col-75">
+            {{item.value}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

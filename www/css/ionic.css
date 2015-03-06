@@ -1,0 +1,43 @@
+/* QuietWind Create at 2014-12-23 */
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+.circle-img {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%; }
+
+.icon-item {
+  font-size: 50px;
+  text-align: center;
+  line-height: 2;
+  color: #08adfa; }
+
+.icon {
+  color: #08adfa; }
+
+.error-text {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px #000; }
+
+/*# sourceMappingURL=ionic.css.map */
